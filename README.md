@@ -2,8 +2,6 @@
 
 TutorialView is a simple library designed to help you create a simple JellyBean styled walkthrough for your Android app.  It uses Android's DialogFragment class to create a simple view to highlight the best, or perhaps less intuitive parts of your app.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
 ## Setup
 
 Download the project, import it into Eclipse.  Right click your project in the package explorer, hit properties, navigate to the Android tab, and import the TutorialView class in the Library pane.
