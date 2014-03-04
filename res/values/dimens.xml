@@ -1,0 +1,10 @@
+<resources>
+
+    <dimen name="tutview__activity_margin">16dp</dimen>
+    <dimen name="tutview__button_horizontal_padding">32dp</dimen>
+    <dimen name="tutview__button_pressed_padding">4dp</dimen>
+    <dimen name="tutview__text_container_margin_offset">64dp</dimen>
+    <dimen name="tutview__circle_margin">24dp</dimen>
+    <dimen name="tutview__corner_rounding">3dp</dimen>
+
+</resources>

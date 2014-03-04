@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/tutorial_text_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/tutview__activity_margin" >
+
+        <TextView
+            android:id="@+id/tutorial_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/tutview__activity_margin"
+            android:text="@string/tutview__default_title"
+            android:textColor="@color/tutview__holo_blue"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/tutorial_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tutorial_title"
+            android:text="@string/tutview__default_message"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/tutorial_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="@dimen/tutview__activity_margin"
+        android:background="@drawable/tutview__btn_selector"
+        android:text="@string/tutview__OK"
+        android:textColor="@android:color/white" />
+
+</FrameLayout>

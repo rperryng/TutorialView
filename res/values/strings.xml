@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tutview__default_title">This is a default title</string>
+    <string name="tutview__default_message">This is a default message</string>
+    <string name="tutview__OK">OK</string>
+    <string name="tutview__toast_text">Hit the back button again to exit the tutorial</string>
+
+</resources>

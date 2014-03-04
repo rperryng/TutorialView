@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/tutview__btn_background_pressed_outer">
+        <shape>
+            <solid android:color="@color/tutview__blue_light" />
+
+            <padding
+                android:bottom="@dimen/tutview__button_pressed_padding"
+                android:left="@dimen/tutview__button_pressed_padding"
+                android:right="@dimen/tutview__button_pressed_padding"
+                android:top="@dimen/tutview__button_pressed_padding" />
+            
+            <corners android:radius="@dimen/tutview__corner_rounding" />
+        </shape>
+    </item>
+    <item android:id="@+id/tutview__btn_background_pressed_inner">
+        <shape>
+            <solid android:color="@color/tutview__holo_blue" />
+
+            <padding
+                android:left="@dimen/tutview__button_horizontal_padding"
+                android:right="@dimen/tutview__button_horizontal_padding" />
+
+            <corners android:radius="@dimen/tutview__corner_rounding" />
+        </shape>
+    </item>
+
+</layer-list>
